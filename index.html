@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="logo">
+            <img src="netflixlogo.png" alt="netflix foto">
+        </div>
+        <div class="thanks">
+            <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+        </div>
+        <div class="blackbox">
+            <div class="sign_up">
+                <form action="index.html">
+                    <label for="flname">Name</label>
+                    <input type="text" name="flname" id="flname" placeholder="enter your name">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="age">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your Email">
+
+                    <!-- content type -->
+
+                    <label for="datalist">Content Type</label>
+                    <input list="series" name="datalist" id="datalist" placeholder="Series">
+                    <datalist id="series">
+                        <option value="Documantary">Documantary</option>
+                        <option value="Film">Film</option>
+                        <option value="Standup">Standup</option>
+                        <option value="Cartoon">Cartoon</option>
+                    </datalist>
+                </form>
+
+                </div> 
+
+                <!-- Movie Type -->
+                <div class="movietype">
+                    <form action="index.html">
+                        <p>Movie Type</p>
+                        <input type="checkbox" id="type1" name="type1" value="comedy">
+                        <label for="type1">Comedy</label><br>
+                        <input type="checkbox" id="type2" name="type2" value="action">
+                        <label for="type2">Action</label><br>
+                        <input type="checkbox" id="type3" name="type3" value="romance">
+                        <label for="type3">Romance</label><br>
+                    </form>
+                </div>
+
+                
+
+                    <!-- gender -->
+                <div class="gender">
+            
+                    <form action="index.html">
+                        <p>Gender</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">  
+                    <label for="male">Other</label>
+                    </form>           
+                </div>
+
+                <!-- textarea -->
+                <div class="tarea">
+                    <form action="index.html">
+                        <p>Feedback</p>
+                        <textarea>any comment</textarea>
+                    </form>
+                </div>
+
+                <!-- send -->
+                <div class="sbmt">
+                    <form action="index.html">
+                    <button type="submit">Send</button>
+                    </form>
+                </div>
+
+               
+        </div>
+    </div>
+
+</body>
+</html>
